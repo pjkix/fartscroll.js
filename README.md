@@ -11,16 +11,16 @@ _Now with 100% less jQuery! (Sorry, jQuery, we still love you)_
 
 ```javascript
 // Fart every 400 pixels scrolled
-fartscroll(); 
+fartscroll();
 
 // Fart every 800 pixels scrolled
 fartscroll(800);
 ```
-### Bookmarklet: 
+### Bookmarklet:
 
 Or use the following bookmarklet directly from your browser to add fartscroll to any page
 
-	(function(){var e=document.createElement("script");e.setAttribute("src","https://raw.github.com/theonion/fartscroll.js/master/fartscroll.js");document.head.appendChild(e);window.setTimeout(function(){fartscroll(800)},500)})()
-	
-    
+    javascript: (function(){var e=document.createElement("script");e.setAttribute("src","https://raw.github.com/theonion/fartscroll.js/master/fartscroll.js");document.head.appendChild(e);window.setTimeout(function(){fartscroll(800)},500)})()
+
+
 More info at [http://theonion.github.io/fartscroll.js/](http://theonion.github.io/fartscroll.js/).
